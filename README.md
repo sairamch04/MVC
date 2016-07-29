@@ -9,11 +9,11 @@ Usage:
     
     Here, we define 2 routes in this case, we maped  “/hello” to Index2 and “/” to Index
     
-    public void init() {	
-        ..
-        ..
-  	pathToViewname.put("/hello", "Index2");
-  	pathToViewname.put("/", "Index");		
+    public void init() {
+       ..
+       ..
+       pathToViewname.put("/hello", "Index2");
+       pathToViewname.put("/", "Index");		
     }
     
   Index2 and Index are to be added  in  org.Framework.Handler and implement 
